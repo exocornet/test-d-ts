@@ -1,0 +1,17 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "./../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+
+@layer components-entities {
+	.logout {
+		padding: 4px 10px;
+
+		border-radius: 10px;
+		outline: none;
+		background: $white;
+
+		font-size: 15px;
+		font-weight: bold;
+	}
+}

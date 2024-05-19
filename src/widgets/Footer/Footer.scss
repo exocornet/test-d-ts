@@ -1,0 +1,31 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-widgets {
+	.footer {
+		padding: 10px;
+
+		text-align: center;
+
+		background: hsl(178.4, 49.66%, 57.77%);
+
+		font-size: 30px;
+	}
+
+	@include media(xs) {
+		position: fixed;
+
+		margin-bottom: 150px;
+		padding-top: 150px;
+
+		font-weight: unset;
+	}
+
+	@include media(md) {
+		margin-left: 149px;
+		padding-bottom: 150px;
+
+		font-size: initial;
+	}
+}

@@ -1,0 +1,35 @@
+@layer pages {
+	.ul {
+		width: 600px;
+		margin: 0 auto;
+		padding: 10px;
+
+		list-style: none;
+
+		color: hsl(0, 0%, 0%);
+
+		border: 1px solid hsl(0, 0%, 0%);
+	}
+
+	.li {
+		margin-bottom: 10px;
+
+		font-weight: bold;
+	}
+
+	.block {
+		width: 800px;
+		margin: 0 auto 15px;
+		padding: 5px;
+
+		border: 1px solid hsl(178.4, 49.66%, 57.77%);
+
+		h2 {
+			font-weight: bold;
+		}
+
+		p {
+			margin-top: 10px;
+		}
+	}
+}

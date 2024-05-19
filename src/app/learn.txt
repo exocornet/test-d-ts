@@ -1,0 +1,2 @@
+const path = usePathName()
+const router = useRouter()

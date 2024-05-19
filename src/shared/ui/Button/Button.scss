@@ -1,0 +1,25 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	.button {
+		display: flex;
+	}
+
+	@include media(xs) {
+		position: fixed;
+
+		margin-bottom: 1520px;
+		padding-top: 1410px;
+
+		font-weight: unset;
+	}
+
+	@include media(md) {
+		margin-right: 170px;
+		padding-left: 140px;
+
+		font-size: initial;
+	}
+}

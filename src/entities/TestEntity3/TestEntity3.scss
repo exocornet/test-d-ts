@@ -1,0 +1,27 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "./../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+
+@layer components-entities {
+	.score,
+	.env {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		margin: 10px 0;
+
+		border: 1px solid hsl(351, 54%, 80%);
+		row-gap: 10px;
+
+		h2 {
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+
+	.paragraph {
+		margin-bottom: 20px;
+	}
+}

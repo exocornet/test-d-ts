@@ -1,0 +1,9 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	.input {
+		border: 1px solid $black;
+	}
+}

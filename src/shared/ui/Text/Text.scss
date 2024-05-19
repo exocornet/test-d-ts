@@ -1,0 +1,41 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-shared {
+	.button {
+		display: block;
+
+		&_test {
+			border-radius: 15px;
+
+			@include media(xs) {
+				border-radius: 35px;
+			}
+		}
+
+		&_test2 {
+			padding-right: 15px;
+
+			@include media(xs) {
+				padding-right: 35px;
+			}
+		}
+
+		@include media(xs) {
+			position: relative;
+
+			margin-bottom: 520px;
+			padding-top: 410px;
+
+			font-weight: unset;
+		}
+
+		@include media(md) {
+			margin-right: 70px;
+			padding-left: 40px;
+
+			font-size: initial;
+		}
+	}
+}

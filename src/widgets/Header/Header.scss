@@ -1,0 +1,61 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-widgets {
+	.header {
+		padding: 10px;
+
+		background: $pink;
+	}
+
+	.navigation {
+		display: flex;
+	}
+
+	.link {
+		text-decoration: none;
+
+		font-weight: bold;
+	}
+
+	.in-nav {
+		margin-inline: auto;
+
+		display: flex;
+		align-items: center;
+		column-gap: 10px;
+	}
+
+	.login {
+		display: flex;
+		align-items: center;
+
+		padding: 4px 10px;
+
+		text-decoration: none;
+
+		border-radius: 10px;
+		outline: none;
+		background: $white;
+
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	@include media(xs) {
+		display: block;
+
+		margin-top: 105px;
+
+		font-weight: bold;
+	}
+
+	@include media(md) {
+		position: fixed;
+
+		padding-bottom: 150px;
+
+		border-radius: 12px;
+	}
+}
